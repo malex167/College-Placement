@@ -1,5 +1,5 @@
 # Executive Summary
-Using R Studios, the machine learning algorithms Random Forest and XGboost were utilized towards examining college admissions for prospective graduate students targeting programs in Marketing, HR, or Finance at Jain University Bangalore via the campus recruitement data set gathered from Kaggle. Overall, the Random Forest model produced greater accuracy towards predicting whether someone was admitted into college. Accordingly, for prospective students, I would advice that using one's own information in regard to the variables presented in the model serves as a good indicator as to whether or not admissions is likely. 
+Using R Studio, the machine learning algorithms Random Forest and XGboost were utilized towards examining college admissions for prospective graduate students targeting programs in Marketing, HR, or Finance at Jain University Bangalore via the campus recruitement data set gathered from Kaggle. Overall, the Random Forest model produced greater accuracy towards predicting whether someone was admitted into college. Accordingly, for prospective students, I would advice that using one's own information in regard to the variables presented in the model serves as a good indicator as to whether or not admissions is likely. 
 
 ## Problem
 
