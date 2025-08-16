@@ -1,5 +1,5 @@
 # Executive Summary
-Using R Studios, the machine learning algorithms Random Forest and XGboost were utilized towards examining college admissions for prospective students targeting programs in marketing, HR, or Finance at Jain University Bangalore via the campus recruitement data set gathered from Kaggle. Overall, the Random Forest model produced greater accuracy towards predicting whether someone was admitted into college. Accordingly, for prospective students, I would advice that using one's own information in regard to the variables presented in the model serves as a good indicator as to whether or not admissions is likely. 
+Using R Studios, the machine learning algorithms Random Forest and XGboost were utilized towards examining college admissions for prospective graduate students targeting programs in marketing, HR, or Finance at Jain University Bangalore via the campus recruitement data set gathered from Kaggle. Overall, the Random Forest model produced greater accuracy towards predicting whether someone was admitted into college. Accordingly, for prospective students, I would advice that using one's own information in regard to the variables presented in the model serves as a good indicator as to whether or not admissions is likely. 
 
 ## Problem
 
@@ -19,7 +19,27 @@ The primary variable in question from the data set is "status" indicating whethe
 
 ## Results and Recommendation
 
+From the XGboost model, as shown in Figure 1 below, the largest contributing variables towards predicting college placement (in descending order are) scoring percentage of the 12th grade, scoring percentage of the 10th grade, scoring percentage in their undergraduate degree, and scoring percentage in an MBA program. 
+
+<img width="682" height="498" alt="image" src="https://github.com/user-attachments/assets/1568c689-29e2-499e-8be3-9e535bd4b4b5" />
+*Figure 1: XGboost plot of variable importance.*
+
+From the resulting confusion matrix, shown in Figure 2 below, the model was 81.58% accurate in predicting the testing data set after utilizing the training data set. 
+
+<img width="545" height="213" alt="image" src="https://github.com/user-attachments/assets/795520a7-9628-499e-9773-9fa4e7cdea71" />
+
+*Figure 2: Confusion matrix and corresponding accuracy with confidence interval for XGboost model.*
+
+The Random Forest model, with variable significance shown in Figure 3 below, indicates that virtually identical results to that of the XGboost model in which scoring percentage for the 12th grade was the largest indicator of admissions followed by equal weighting in undergraduate degree and 10th grade scoring percentages, this is followed by the scoring percentage when receiving an MBA. 
+
 <img width="682" height="498" alt="image" src="https://github.com/user-attachments/assets/ae3d4c5c-f0f6-4fd1-b021-9851f9bb927b" />
+*Figure 3: Visual plot of largest contributing factors in Random Forest model. 
+
+
+The resulting confusion matrix, shown in Figure 4 below, concludes that the Random Forest model was 86.84% accurate in predicting college admissions based on the training data set when then applied to the testing data set. 
+
+<img width="520" height="217" alt="image" src="https://github.com/user-attachments/assets/22728a19-8664-4687-822e-a46755847331" />
+*Figure 4: Confusion matrix and corresponding accuracy with confidence interval for Random Forest model.*
 
 
 ## Next Steps
