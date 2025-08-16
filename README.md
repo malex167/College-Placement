@@ -48,4 +48,8 @@ Overall, the Random Forest model proved to be the superior alternative when asse
 
 ## Next Steps
 
-The analysis conducted provided the framework for assessing potential college admissions, additional work could benefit others on a larger scale if similar practices and methodologies were applied to other universities of interest for a given prospective student. Additionally, tuning on either model yields the potential of greater accuracy and reduced error. 
+The analysis conducted provided the framework for assessing potential college admissions, additional work could benefit others on a larger scale if similar practices and methodologies were applied to other universities of interest for a given prospective student. Additionally, tuning on either model yields the potential of greater accuracy and reduced error while gathering information on other theorized contributing variables not specified could improve model predictability. 
+
+1. Expanding machine learning algorithms to additional universities
+2. Tuning algorithm parameters
+3. New data collection methodologies towards gathering additional variables
