@@ -1,5 +1,5 @@
 # Executive Summary
-Using R Studios, the machine learning algorithms Random Forest and XGboost were utilized towards examining college admissions for prospective graduate students targeting programs in marketing, HR, or Finance at Jain University Bangalore via the campus recruitement data set gathered from Kaggle. Overall, the Random Forest model produced greater accuracy towards predicting whether someone was admitted into college. Accordingly, for prospective students, I would advice that using one's own information in regard to the variables presented in the model serves as a good indicator as to whether or not admissions is likely. 
+Using R Studios, the machine learning algorithms Random Forest and XGboost were utilized towards examining college admissions for prospective graduate students targeting programs in Marketing, HR, or Finance at Jain University Bangalore via the campus recruitement data set gathered from Kaggle. Overall, the Random Forest model produced greater accuracy towards predicting whether someone was admitted into college. Accordingly, for prospective students, I would advice that using one's own information in regard to the variables presented in the model serves as a good indicator as to whether or not admissions is likely. 
 
 ## Problem
 
@@ -44,5 +44,8 @@ The resulting confusion matrix, shown in Figure 4 below, concludes that the Rand
 
 **Figure 4: Confusion matrix and corresponding accuracy with confidence interval for Random Forest model.**
 
+Overall, the Random Forest model proved to be the superior alternative when assessing potential college placement at Jain University Bangalore's graduate programs in Marketing, HR, or Finance. Accordingly, this model serves as a better alternative when trying to determine if one's credentials are potentially adequate when applying. 
 
 ## Next Steps
+
+The analysis conducted provided the framework for assessing potential college admissions, additional work could benefit others on a larger scale if similar practices and methodologies were applied to other universities of interest for a given prospective student. Additionally, tuning on either model yields the potential of greater accuracy and reduced error. 
