@@ -1,2 +1,3 @@
-# College-Placement
-The college placement repository utilizes campus recruitment data from Kaggle towards varying factors for a given individual including whether or not they were accepted as a student. Analysis conducted within the R Studio environment utilized varying machine learning algorithms towards predicting college admissions. 
+# Executive Summary
+Using R Studios, the machine learning algorithms Random Forest and XGboost were utilized towards examining college admissions for prospective students targeting programs in marketing, HR, or Finance via the campus recruitement data set gathered from Kaggle. Overall, the Random Forest model produced greater accuracy towards predicting whether someone was admitted into college. Accordingly, for prospective students, I would advice that using one's own information in regard to the variables presented in the model serves as a good indicator as to whether or not admissions is likely. 
+
